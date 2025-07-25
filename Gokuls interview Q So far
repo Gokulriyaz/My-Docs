@@ -1,0 +1,127 @@
+Cloud Architecture & Networking
+-------------------------------
+- How do you set up a 2-tier architecture in the cloud?
+- What networking configurations are required for a 2-tier architecture?
+- Explain Auto Scaling Groups (ASG) in AWS and how they are configured.
+- How does DR (Disaster Recovery) switchover work, and how will you set it up to switch over automatically?
+- What actions will you take if an EKS pod or standard Kubernetes pod is not responsive?
+- one server to another server i'm unable to connect, What are things need to be checked?
+- Networking connectivity from Namespace to namespace in k8s cluster
+- Application Gateway Configuration
+
+Cloud Cost Optimization
+-----------------------
+- How do you optimize costs in AWS and Azure? Where and how can i do it?, i mentioned i have saved 50-60% on resizing and changing cpu series on azure vm and vmss and also fileshare by changing it from standard to premium.?
+
+Migration & Deployment
+----------------------
+- Explain the migration from IaaS (VM app server) to PaaS (JBoss service) in Azure.
+- Paas service - deployment slot
+- User logging to your app flow
+- Terraform coding indepth
+- How will you do infrastructure changes of present infra on terraform.
+
+Kubernetes & Containerization
+-----------------------------
+- How do you configure AKS and EKS?
+- Explain Kubernetes YAML, including Deployment, Service (ClusterIP, NodePort, LoadBalancer), Ingress, Horizontal Scaling, PV, and PVC.
+- What will you do if an EKS pod or standard Kubernetes pod is not responsive?
+- EKS - Updating version of an application on EKS cluster on worker nodes
+- kubernetes architecture
+- What is daemonset in k8s
+- How do you rollback a deployment of 5 version older
+
+Terraform
+---------
+- Explain Terraform and its components. How do you use Terraform workspaces?
+- How do you optimize VM scaling, storage, and network configurations using Terraform and Ansible?
+- What is a Terraform state file, and how do you manage it?
+- How do you ensure reusability in Terraform (e.g., modules, variables, outputs)?
+- How do you automate Terraform workflows (e.g., CI/CD integration)?
+- Where will you maintain statefile?
+- What will you do if statefile gets lost??
+- what is backend.tf in terraform
+
+Ansible
+-------
+- How do you use Ansible in your project?
+- ansible playbook - How to execute a task one by one in ansible playbook , lets say i have to send files to 10 servers one by one
+
+CI/CD & DevOps Tools
+--------------------
+- Explain the CI/CD Jenkins flow using GitLab, Jenkins, Maven, SonarQube, Docker, Kubernetes, Helm, ArgoCD, Prometheus, and Grafana.
+- How do you configure Helm and ArgoCD in Kubernetes?
+- How do you troubleshoot cicd pipeline build errors on Maven, SonarQube, Docker, Trivy, Kubernetes, Helm, ArgoCD, Prometheus, and Grafana builds?
+- How do you implement DevSecOps practices in CI/CD pipelines?
+- What is the flow from CI/CD to AKS/EKS?
+- how git is integrated with Jenkins
+
+Docker
+------
+- Explain how you worked with Docker and Kubernetes.
+- How do you maintain security on Docker images?
+- How do you optimize Docker images?
+- How do you maintain security while creating a Docker image?
+- How do you optimize Docker images for performance and security?
+- How to share logs from docker to host machine
+
+Monitoring & Logging
+--------------------
+- How do you configure the ELK Stack for log management?
+- How do you create dashboards using ELK with Grok patterns and DB metrics?
+- How do you perform production monitoring apart from using shell scripts?
+- How do you configure Grafana and Prometheus for monitoring, and how are they used during incidents?
+- Grafana and Prometheus configuration
+- ELK Configuration step by step
+- How do you configure Grafana and Prometheus for monitoring?
+- How are Grafana and Prometheus used during incidents?
+- App insights
+- Prometheus and Grafana setup
+
+Shell Scripting
+---------------
+- Write a shell script to transfer logs from EC2 to an S3 bucket.
+- Write a shell script for log rotation and archival.
+- Write a shell script to automate AWS secrets (access key and secret key) through login.
+- Write a shell script to generate public and private keys automatically.
+- Shell scripting - in log file there are 10 lines of diff Ip: port specified and I want to check the port opening connectivity for each one by one
+- how to check error msg occurrence and count in a error log file both shell and python scripts
+
+System Administration
+---------------------
+- What will you do if a VM is not responsive?
+- VM is not responsive, not able to connect
+- How do you secure your VM
+- I have two servers with same cron job for a mailing service, I want high availability and also want only one server running that job and the 2nd server needs to run only when the 1st server goes down. How to achieve this?
+- Linux administration with scenario-based questions.
+- What are the most commonly used Linux commands for troubleshooting?
+
+Programming & Scripting
+-----------------------
+- Explain Python basics, including tuples, lists, and dictionaries.
+- What are the basic syntax and concepts of Python scripting?
+- Step by step process to compile java application?
+
+Databases & DNS
+---------------
+- What are the basic concepts of PostgreSQL, Redis, and Solr?
+- How do you configure DNS on an RHEL server?
+- What are CNAME records, and how are they used?
+
+Azure & AWS Services
+--------------------
+- Key vault
+- Azure Functions / AWS Lambda
+- Api calls in backend
+private subnet vs public subnet
+how to restrict only one Ip when all ips are opened publicly through nat gateway
+Explain Architecture , especially the networking components
+What will you do when an incident occurs where app gets not responsive
+what is route table
+What will you do if azure function is giving as connection timed out when you try to connect?
+
+General Automation & Tools
+--------------------------
+- What automations have you created?
+- What are the most commonly used commands in Ansible, Terraform, Helm, ArgoCD, Docker, and Kubernetes?
+
