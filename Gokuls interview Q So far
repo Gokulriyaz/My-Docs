@@ -30,6 +30,7 @@ Kubernetes & Containerization
 - kubernetes architecture
 - What is daemonset in k8s
 - How do you rollback a deployment of 5 version older
+- Node restriction and Autoscaling in Kubernetes
 
 Terraform
 ---------
@@ -41,6 +42,7 @@ Terraform
 - Where will you maintain statefile?
 - What will you do if statefile gets lost??
 - what is backend.tf in terraform
+- Terraform 2 vm and 2 vnet creation and port 80 should be opened and vm-b should be accessible to vm-a via ssh
 
 Ansible
 -------
@@ -55,6 +57,8 @@ CI/CD & DevOps Tools
 - How do you implement DevSecOps practices in CI/CD pipelines?
 - What is the flow from CI/CD to AKS/EKS?
 - how git is integrated with Jenkins
+- Complete CICD flow from start to finish --> especially how credentials integrated
+- Write declarative pipeline for Ci and Cd
 
 Docker
 ------
@@ -86,6 +90,16 @@ Shell Scripting
 - Write a shell script to generate public and private keys automatically.
 - Shell scripting - in log file there are 10 lines of diff Ip: port specified and I want to check the port opening connectivity for each one by one
 - how to check error msg occurrence and count in a error log file both shell and python scripts
+- The jpeg might be jumbled within directories, I need the script to see if jpeg is present in the correct naming folder of each images and it needs to be placed correctly
+-dir images
+   - image.txt --> containing line1: deer,tiger
+			      line2: sparrow,crow
+   - dir Animal
+	deer.jpeg
+	tiger.jpeg
+   - dir Bird
+	sparrow.jpeg
+	crow.jpeg
 
 System Administration
 ---------------------
