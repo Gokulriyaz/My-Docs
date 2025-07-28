@@ -31,6 +31,7 @@ Kubernetes & Containerization
 - What is daemonset in k8s
 - How do you rollback a deployment of 5 version older
 - Node restriction and Autoscaling in Kubernetes
+- K8's policies
 
 Terraform
 ---------
